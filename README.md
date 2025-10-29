@@ -68,12 +68,12 @@ final_project/
 Choose an option (1-5): 1
 
 Enter name: Mosaddag
-Enter phone number: 0768010858
+Enter phone number: 0912345678
 ✅ Contact 'Mosaddag' added successfully!
 
 Choose an option (1-5): 2
 📋 All Contacts:
-1. Mosaddag,0768010858
+1. Mosaddag,0912345678
 
 🧰 Technologies Used
 Python 3
@@ -88,3 +88,4 @@ It is open for educational and non-commercial use.
 👤 Mosaddag Awad
 📧 GitHub Username (mosaddag)
 🕓 October 2025
+

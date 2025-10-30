@@ -1,98 +1,42 @@
-# My Contacts 📱  
-### CS50 Final Project by Mosaddag Awad
+# My Contacts
 
----
+#### Video Demo: https://youtu.be/k_U24Nw-yow
+#### Description:
 
-## 🎯 Project Overview
+**My Contacts** is a simple contact management program built in Python for my CS50 Final Project.  
+It allows users to **add, view, search, and delete** contacts, storing all data in a CSV file.
 
-**My Contacts** is a simple command-line contact manager built in Python.  
-It allows users to **store, search, view, and delete** contact information directly from the terminal.  
+### Features
+- Add new contact (name + phone number)
+- View all contacts
+- Search for a contact by name
+- Delete an existing contact
+- Data is stored permanently in `contacts.csv`
 
-This project demonstrates practical programming skills including:
-- File handling with CSV files
-- Loops and conditional statements
-- User input and data validation
-- Modular function design
-- Persistent data storage
-
----
-
-## 🧠 Motivation
-
-The idea behind *My Contacts* came from the need for a lightweight and easy-to-use tool to organize names and phone numbers.  
-Unlike mobile apps, this tool is purely text-based — great for practicing Python fundamentals and logical thinking.
-
----
-
-## ⚙️ Features
-
-✅ **Add Contact** — Add a new name and phone number to your list.  
-✅ **View All Contacts** — Display all stored contacts in a clean table.  
-✅ **Search Contact** — Find a contact by name instantly.  
-✅ **Delete Contact** — Remove a contact from your list permanently.  
-✅ **Data Persistence** — Contacts are saved in a CSV file (`contacts.csv`), so they remain even after closing the program.  
-
----
-
-## 🖥️ How to Run
-
-1. Open your terminal inside the project folder.  
-   ```bash
-   cd final_project
-
-2. Run the program using Python 3:
-python3 contacts.py
-
-3. Follow the menu options displayed on screen:
-=== My Contacts ===
+### How It Works
+When the program starts, a main menu appears with four options:
 1. Add Contact
-2. View All Contacts
+2. View Contacts
 3. Search Contact
 4. Delete Contact
 5. Exit
 
-📁 File Structure
-final_project/
-│
-├── contacts.py       # Main program file
-├── contacts.csv      # Data file (created automatically)
-└── README.md         # Project documentation
+Each option runs a specific function from `contacts.py`.  
+The data file `contacts.csv` is automatically created (if it doesn’t exist) and updated every time the user performs an operation.
 
-🧩 Example Interaction
-=== My Contacts ===
-1. Add Contact
-2. View All Contacts
-3. Search Contact
-4. Delete Contact
-5. Exit
-Choose an option (1-5): 1
+### File Structure
+- `contacts.py`: Main source code of the project (program logic and user interaction).
+- `contacts.csv`: The database file storing contact names and phone numbers.
+- `README.md`: This file (project documentation and explanation).
 
-Enter name: Mosaddag
-Enter phone number: 0912345678
-✅ Contact 'Mosaddag' added successfully!
+### Design Choices
+I chose to use a **CSV file** instead of a database like SQLite to keep the project lightweight and easy to understand.  
+Each feature is built using functions to make the code modular and maintainable.
 
-Choose an option (1-5): 2
-📋 All Contacts:
-1. Mosaddag - 0912345678
+### Future Improvements
+In future versions, I plan to:
+- Add email fields
+- Use a graphical interface (Tkinter or Flask)
+- Improve search to handle partial matches
 
-🧰 Technologies Used
-Python 3
-CSV Module (for file handling)
-Terminal/Command-Line Interface (CLI)
-
-📸 Demo Video
-🎥 You can watch a short video demonstration of the project here:
-👉 https://youtu.be/k_U24Nw-yow
-
-📜 License
-This project was developed for Harvard’s CS50x Final Project (2025).
-It is open for educational and non-commercial use.
-
-✨ Author
-👤 Mosaddag Awad
-📧 GitHub Username (mosaddag)
-🕓 October 2025
-
-
-
-
+This project demonstrates file handling, data persistence, and menu-driven user interaction in Python.

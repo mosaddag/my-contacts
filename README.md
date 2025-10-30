@@ -80,6 +80,10 @@ Python 3
 CSV Module (for file handling)
 Terminal/Command-Line Interface (CLI)
 
+📸 Demo Video
+🎥 You can watch a short video demonstration of the project here:
+👉 https://youtu.be/k_U24Nw-yow
+
 📜 License
 This project was developed for Harvard’s CS50x Final Project (2025).
 It is open for educational and non-commercial use.
@@ -88,5 +92,6 @@ It is open for educational and non-commercial use.
 👤 Mosaddag Awad
 📧 GitHub Username (mosaddag)
 🕓 October 2025
+
 
 
